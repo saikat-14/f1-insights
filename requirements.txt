@@ -1,0 +1,12 @@
+fastf1>=3.4
+pandas>=2.0
+numpy
+pyarrow
+scikit-learn
+lightgbm
+shap
+streamlit
+plotly
+requests
+python-dotenv
+pytz
