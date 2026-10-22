@@ -1,0 +1,3 @@
+2026-10-22 09:47:54Z  championship ERROR ValueError: invalid literal for int() with base 10: '-'
+2026-10-22 10:03:00Z  championship ERROR ValueError: invalid literal for int() with base 10: '-'
+2026-10-22 10:05:12Z  championship: Championship updated after round 17 (Singapore Grand Prix).

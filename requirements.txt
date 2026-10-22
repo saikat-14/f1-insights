@@ -5,8 +5,8 @@ pyarrow
 scikit-learn
 lightgbm
 shap
-streamlit
+streamlit>=1.50
 plotly
 requests
 python-dotenv
-pytz
+pytest

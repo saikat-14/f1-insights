@@ -115,12 +115,12 @@ def build_race(year: int, rnd: int, event_name: str, country: str):
     return df
 
 
-def main():
+def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--start", type=int, default=2018)
     ap.add_argument("--end", type=int, default=dt.date.today().year)
     ap.add_argument("--smoke", action="store_true", help="only first 3 races of 2024")
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
 
     if args.smoke:
         args.start, args.end = 2024, 2024

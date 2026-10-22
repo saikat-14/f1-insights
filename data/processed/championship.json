@@ -1,0 +1,1988 @@
+{
+  "clinched": false,
+  "season": 2026,
+  "as_of_round": 17,
+  "as_of_event": "Singapore Grand Prix",
+  "total_rounds": 23,
+  "remaining_rounds": 6,
+  "remaining_sprints": 0,
+  "max_points_remaining": 150,
+  "generated_at": "2026-10-22T10:04:31.948363+00:00",
+  "source": "Jolpica-F1 API",
+  "data_status": "official",
+  "pending_race": null,
+  "n_sims": 20000,
+  "method": "Monte Carlo simulation of 20,000 possible remaining seasons. Driver pace is estimated from historical race results, with recent results weighted more heavily and early-season estimates shrunk toward the field average. Simulations include persistent driver and team form, race-to-race pace variation and estimated retirement risk. Grand Prix and sprint points are simulated separately. Championship probabilities are model estimates, not official Formula 1 statistics.",
+  "standings": [
+    {
+      "code": "ANT",
+      "name": "Andrea Kimi Antonelli",
+      "team": "Mercedes",
+      "points": 340.0,
+      "wins": 8,
+      "number": "12",
+      "pos": 1,
+      "podiums": 14,
+      "gap_leader": 0.0,
+      "gap_ahead": 0.0,
+      "max_possible": 490.0,
+      "eliminated": false,
+      "prob": 0.9998,
+      "prev_prob": 0.99585,
+      "prob_change": 0.003950000000000009,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 1,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 1,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 5,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 2,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 3,
+          "dnf": false
+        }
+      ],
+      "points_last3": 48.0,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Kimi_Antonelli_at_the_2025_US_Grand_Prix_in_Austin%2C_TX_%28cropped%29.jpg/330px-Kimi_Antonelli_at_the_2025_US_Grand_Prix_in_Austin%2C_TX_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "code": "RUS",
+      "name": "George Russell",
+      "team": "Mercedes",
+      "points": 238.0,
+      "wins": 3,
+      "number": "63",
+      "pos": 2,
+      "podiums": 8,
+      "gap_leader": 102.0,
+      "gap_ahead": 102.0,
+      "max_possible": 388.0,
+      "eliminated": false,
+      "prob": 0.0001,
+      "prev_prob": 0.0022,
+      "prob_change": -0.0021000000000000003,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 2,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 5,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 1,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 20,
+          "dnf": true
+        },
+        {
+          "round": 17,
+          "pos": 9,
+          "dnf": false
+        }
+      ],
+      "points_last3": 27.0,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/KingsLeonSilverstne040724_%2828_of_112%29_%2853838006028%29_%28cropped%29.jpg/330px-KingsLeonSilverstne040724_%2828_of_112%29_%2853838006028%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "code": "HAM",
+      "name": "Lewis Hamilton",
+      "team": "Ferrari",
+      "points": 229.0,
+      "wins": 1,
+      "number": "44",
+      "pos": 3,
+      "podiums": 6,
+      "gap_leader": 111.0,
+      "gap_ahead": 9.0,
+      "max_possible": 379.0,
+      "eliminated": false,
+      "prob": 5e-05,
+      "prev_prob": 0.0015,
+      "prob_change": -0.0014500000000000001,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 6,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 22,
+          "dnf": true
+        },
+        {
+          "round": 15,
+          "pos": 6,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 3,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 6,
+          "dnf": false
+        }
+      ],
+      "points_last3": 38.0,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_%2854566928382%29_%28cropped%29.jpg/330px-Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_%2854566928382%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull",
+      "points": 221.0,
+      "wins": 2,
+      "number": "3",
+      "pos": 4,
+      "podiums": 9,
+      "gap_leader": 119.0,
+      "gap_ahead": 8.0,
+      "max_possible": 371.0,
+      "eliminated": false,
+      "prob": 5e-05,
+      "prev_prob": 0.00035,
+      "prob_change": -0.0003,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 3,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 2,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 2,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 1,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 1,
+          "dnf": false
+        }
+      ],
+      "points_last3": 76.0,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_%28medium_crop%29.jpg/330px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_%28medium_crop%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "team": "Ferrari",
+      "points": 215.0,
+      "wins": 1,
+      "number": "16",
+      "pos": 5,
+      "podiums": 5,
+      "gap_leader": 125.0,
+      "gap_ahead": 6.0,
+      "max_possible": 365.0,
+      "eliminated": false,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 22,
+          "dnf": true
+        },
+        {
+          "round": 14,
+          "pos": 4,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 4,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 4,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 2,
+          "dnf": false
+        }
+      ],
+      "points_last3": 48.0,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Charles_Leclerc_at_the_2026_Cannes_Film_Festival_%28cropped%29.jpg/330px-Charles_Leclerc_at_the_2026_Cannes_Film_Festival_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "code": "NOR",
+      "name": "Lando Norris",
+      "team": "McLaren",
+      "points": 201.0,
+      "wins": 2,
+      "number": "1",
+      "pos": 6,
+      "podiums": 5,
+      "gap_leader": 139.0,
+      "gap_ahead": 14.0,
+      "max_possible": 351.0,
+      "eliminated": false,
+      "prob": 0.0,
+      "prev_prob": 0.0001,
+      "prob_change": -0.0001,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 4,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 3,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 19,
+          "dnf": true
+        },
+        {
+          "round": 16,
+          "pos": 9,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 4,
+          "dnf": false
+        }
+      ],
+      "points_last3": 15.0,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg/330px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "code": "PIA",
+      "name": "Oscar Piastri",
+      "team": "McLaren",
+      "points": 138.0,
+      "wins": 0,
+      "number": "81",
+      "pos": 7,
+      "podiums": 2,
+      "gap_leader": 202.0,
+      "gap_ahead": 63.0,
+      "max_possible": 288.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 5,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 8,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 13,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 6,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 5,
+          "dnf": false
+        }
+      ],
+      "points_last3": 18.0,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/2026_Chinese_GP_-_Oscar_Piastri_%28cropped%29_%28cropped%29.jpg/330px-2026_Chinese_GP_-_Oscar_Piastri_%28cropped%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "code": "HAD",
+      "name": "Isack Hadjar",
+      "team": "Red Bull",
+      "points": 97.0,
+      "wins": 0,
+      "number": "6",
+      "pos": 8,
+      "podiums": 2,
+      "gap_leader": 243.0,
+      "gap_ahead": 41.0,
+      "max_possible": 247.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 10,
+          "pos": 6,
+          "dnf": false
+        },
+        {
+          "round": 11,
+          "pos": 6,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 3,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 5,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 10,
+          "dnf": false
+        }
+      ],
+      "points_last3": 26.0,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Isack_Hadjar_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8753%29_%28cropped%29.jpg/330px-Isack_Hadjar_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8753%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "code": "LAW",
+      "name": "Liam Lawson",
+      "team": "Red Bull",
+      "points": 75.0,
+      "wins": 0,
+      "number": "30",
+      "pos": 9,
+      "podiums": 0,
+      "gap_leader": 265.0,
+      "gap_ahead": 22.0,
+      "max_possible": 225.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 14,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 6,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 12,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 7,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 7,
+          "dnf": false
+        }
+      ],
+      "points_last3": 16.0,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Liam_Lawson_at_the_Red_Bull_Fan_Zone_%E2%80%93_Crown_Riverwalk%2C_Melbourne_%28028A7795%29.jpg/330px-Liam_Lawson_at_the_Red_Bull_Fan_Zone_%E2%80%93_Crown_Riverwalk%2C_Melbourne_%28028A7795%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "code": "GAS",
+      "name": "Pierre Gasly",
+      "team": "Alpine F1 Team",
+      "points": 41.0,
+      "wins": 0,
+      "number": "10",
+      "pos": 10,
+      "podiums": 0,
+      "gap_leader": 299.0,
+      "gap_ahead": 34.0,
+      "max_possible": 191.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 7,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 12,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 18,
+          "dnf": true
+        },
+        {
+          "round": 16,
+          "pos": 16,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 11,
+          "dnf": false
+        }
+      ],
+      "points_last3": 0.0,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pierre_Gasly_2017_Malaysia.jpg/330px-Pierre_Gasly_2017_Malaysia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "code": "LIN",
+      "name": "Arvid Lindblad",
+      "team": "RB F1 Team",
+      "points": 38.0,
+      "wins": 0,
+      "number": "41",
+      "pos": 11,
+      "podiums": 0,
+      "gap_leader": 302.0,
+      "gap_ahead": 3.0,
+      "max_possible": 188.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 8,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 9,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 7,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 10,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 15,
+          "dnf": false
+        }
+      ],
+      "points_last3": 7.0,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Arvid_Lindblad_at_the_Red_Bull_Fan_Zone_%E2%80%93_Crown_Riverwalk%2C_Melbourne_%28028A7869%29_%28cropped%29.jpg/330px-Arvid_Lindblad_at_the_Red_Bull_Fan_Zone_%E2%80%93_Crown_Riverwalk%2C_Melbourne_%28028A7869%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "code": "COL",
+      "name": "Franco Colapinto",
+      "team": "Alpine F1 Team",
+      "points": 27.0,
+      "wins": 0,
+      "number": "43",
+      "pos": 12,
+      "podiums": 0,
+      "gap_leader": 313.0,
+      "gap_ahead": 11.0,
+      "max_possible": 177.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 9,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 7,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 17,
+          "dnf": true
+        },
+        {
+          "round": 16,
+          "pos": 13,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 21,
+          "dnf": true
+        }
+      ],
+      "points_last3": 0.0,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Franco_Colapinto_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8698%29_cropped.jpg/330px-Franco_Colapinto_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8698%29_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "code": "BEA",
+      "name": "Oliver Bearman",
+      "team": "Haas F1 Team",
+      "points": 23.0,
+      "wins": 0,
+      "number": "87",
+      "pos": 13,
+      "podiums": 0,
+      "gap_leader": 317.0,
+      "gap_ahead": 4.0,
+      "max_possible": 173.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 15,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 16,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 9,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 14,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 12,
+          "dnf": false
+        }
+      ],
+      "points_last3": 5.0,
+      "image": null
+    },
+    {
+      "code": "HUL",
+      "name": "Nico Hülkenberg",
+      "team": "Audi",
+      "points": 13.0,
+      "wins": 0,
+      "number": "27",
+      "pos": 14,
+      "podiums": 0,
+      "gap_leader": 327.0,
+      "gap_ahead": 10.0,
+      "max_possible": 163.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 12,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 10,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 11,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 11,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 8,
+          "dnf": false
+        }
+      ],
+      "points_last3": 6.0,
+      "image": null
+    },
+    {
+      "code": "BOR",
+      "name": "Gabriel Bortoleto",
+      "team": "Audi",
+      "points": 10.0,
+      "wins": 0,
+      "number": "5",
+      "pos": 15,
+      "podiums": 0,
+      "gap_leader": 330.0,
+      "gap_ahead": 3.0,
+      "max_possible": 160.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 11,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 13,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 15,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 18,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 22,
+          "dnf": true
+        }
+      ],
+      "points_last3": 0.0,
+      "image": null
+    },
+    {
+      "code": "OCO",
+      "name": "Esteban Ocon",
+      "team": "Haas F1 Team",
+      "points": 7.0,
+      "wins": 0,
+      "number": "31",
+      "pos": 16,
+      "podiums": 0,
+      "gap_leader": 333.0,
+      "gap_ahead": 3.0,
+      "max_possible": 157.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 16,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 11,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 8,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 15,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 13,
+          "dnf": false
+        }
+      ],
+      "points_last3": 4.0,
+      "image": null
+    },
+    {
+      "code": "ALO",
+      "name": "Fernando Alonso",
+      "team": "Aston Martin",
+      "points": 7.0,
+      "wins": 0,
+      "number": "14",
+      "pos": 17,
+      "podiums": 0,
+      "gap_leader": 333.0,
+      "gap_ahead": 0.0,
+      "max_possible": 157.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 21,
+          "dnf": true
+        },
+        {
+          "round": 14,
+          "pos": 17,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 21,
+          "dnf": true
+        },
+        {
+          "round": 16,
+          "pos": 8,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 16,
+          "dnf": false
+        }
+      ],
+      "points_last3": 4.0,
+      "image": null
+    },
+    {
+      "code": "SAI",
+      "name": "Carlos Sainz",
+      "team": "Williams",
+      "points": 7.0,
+      "wins": 0,
+      "number": "55",
+      "pos": 18,
+      "podiums": 0,
+      "gap_leader": 333.0,
+      "gap_ahead": 0.0,
+      "max_possible": 157.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 13,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 19,
+          "dnf": true
+        },
+        {
+          "round": 15,
+          "pos": 10,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 17,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 14,
+          "dnf": false
+        }
+      ],
+      "points_last3": 1.0,
+      "image": null
+    },
+    {
+      "code": "ALB",
+      "name": "Alexander Albon",
+      "team": "Williams",
+      "points": 5.0,
+      "wins": 0,
+      "number": "23",
+      "pos": 19,
+      "podiums": 0,
+      "gap_leader": 335.0,
+      "gap_ahead": 2.0,
+      "max_possible": 155.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 17,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 15,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 20,
+          "dnf": true
+        },
+        {
+          "round": 16,
+          "pos": 21,
+          "dnf": true
+        },
+        {
+          "round": 17,
+          "pos": 18,
+          "dnf": true
+        }
+      ],
+      "points_last3": 0.0,
+      "image": null
+    },
+    {
+      "code": "TSU",
+      "name": "Yuki Tsunoda",
+      "team": "RB F1 Team",
+      "points": 1.0,
+      "wins": 0,
+      "number": "22",
+      "pos": 20,
+      "podiums": 0,
+      "gap_leader": 339.0,
+      "gap_ahead": 4.0,
+      "max_possible": 151.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 12,
+          "pos": 11,
+          "dnf": false
+        },
+        {
+          "round": 13,
+          "pos": 10,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 14,
+          "dnf": false
+        }
+      ],
+      "points_last3": 0.0,
+      "image": null
+    },
+    {
+      "code": "STR",
+      "name": "Lance Stroll",
+      "team": "Aston Martin",
+      "points": 0.0,
+      "wins": 0,
+      "number": "18",
+      "pos": 21,
+      "podiums": 0,
+      "gap_leader": 340.0,
+      "gap_ahead": 1.0,
+      "max_possible": 150.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 20,
+          "dnf": true
+        },
+        {
+          "round": 14,
+          "pos": 21,
+          "dnf": true
+        },
+        {
+          "round": 15,
+          "pos": 22,
+          "dnf": true
+        },
+        {
+          "round": 16,
+          "pos": 12,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 20,
+          "dnf": true
+        }
+      ],
+      "points_last3": 0.0,
+      "image": null
+    },
+    {
+      "code": "BOT",
+      "name": "Valtteri Bottas",
+      "team": "Cadillac F1 Team",
+      "points": 0.0,
+      "wins": 0,
+      "number": "77",
+      "pos": 22,
+      "podiums": 0,
+      "gap_leader": 340.0,
+      "gap_ahead": 0.0,
+      "max_possible": 150.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 19,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 18,
+          "dnf": false
+        },
+        {
+          "round": 15,
+          "pos": 16,
+          "dnf": true
+        },
+        {
+          "round": 16,
+          "pos": 22,
+          "dnf": true
+        },
+        {
+          "round": 17,
+          "pos": 19,
+          "dnf": false
+        }
+      ],
+      "points_last3": 0.0,
+      "image": null
+    },
+    {
+      "code": "PER",
+      "name": "Sergio Pérez",
+      "team": "Cadillac F1 Team",
+      "points": 0.0,
+      "wins": 0,
+      "number": "11",
+      "pos": 23,
+      "podiums": 0,
+      "gap_leader": 340.0,
+      "gap_ahead": 0.0,
+      "max_possible": 150.0,
+      "eliminated": true,
+      "prob": 0.0,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
+      "trend": "flat",
+      "form": [
+        {
+          "round": 13,
+          "pos": 18,
+          "dnf": false
+        },
+        {
+          "round": 14,
+          "pos": 20,
+          "dnf": true
+        },
+        {
+          "round": 15,
+          "pos": 14,
+          "dnf": false
+        },
+        {
+          "round": 16,
+          "pos": 19,
+          "dnf": false
+        },
+        {
+          "round": 17,
+          "pos": 17,
+          "dnf": false
+        }
+      ],
+      "points_last3": 0.0,
+      "image": null
+    }
+  ],
+  "history": [
+    {
+      "round": 1,
+      "event": "Australian Grand Prix",
+      "probs": {
+        "RUS": 0.3717,
+        "ANT": 0.2021,
+        "LEC": 0.16035,
+        "HAM": 0.08895,
+        "NOR": 0.0733,
+        "VER": 0.0444,
+        "BEA": 0.0245,
+        "LIN": 0.0143,
+        "BOR": 0.0073,
+        "GAS": 0.0031,
+        "OCO": 0.0008,
+        "ALB": 0.00125,
+        "LAW": 0.00025,
+        "COL": 5e-05,
+        "SAI": 0.0,
+        "PER": 0.0,
+        "HAD": 0.00115,
+        "PIA": 0.00085,
+        "HUL": 0.0015,
+        "ALO": 0.002,
+        "BOT": 0.0021,
+        "STR": 5e-05
+      },
+      "points": {
+        "RUS": 25.0,
+        "ANT": 18.0,
+        "LEC": 15.0,
+        "HAM": 12.0,
+        "NOR": 10.0,
+        "VER": 8.0,
+        "BEA": 6.0,
+        "LIN": 4.0,
+        "BOR": 2.0,
+        "GAS": 1.0,
+        "OCO": 0.0,
+        "ALB": 0.0,
+        "LAW": 0.0,
+        "COL": 0.0,
+        "SAI": 0.0,
+        "PER": 0.0,
+        "HAD": 0.0,
+        "PIA": 0.0,
+        "HUL": 0.0,
+        "ALO": 0.0,
+        "BOT": 0.0,
+        "STR": 0.0
+      }
+    },
+    {
+      "round": 2,
+      "event": "Chinese Grand Prix",
+      "probs": {
+        "RUS": 0.3694,
+        "ANT": 0.3652,
+        "LEC": 0.11605,
+        "HAM": 0.1143,
+        "BEA": 0.0214,
+        "NOR": 0.00545,
+        "GAS": 0.0036,
+        "VER": 0.00295,
+        "LAW": 0.0005,
+        "LIN": 0.0001,
+        "HAD": 0.0007,
+        "PIA": 5e-05,
+        "SAI": 0.0,
+        "BOR": 0.0002,
+        "COL": 5e-05,
+        "OCO": 0.0,
+        "HUL": 5e-05,
+        "ALB": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "ALO": 0.0,
+        "STR": 0.0
+      },
+      "points": {
+        "RUS": 51.0,
+        "ANT": 47.0,
+        "LEC": 34.0,
+        "HAM": 33.0,
+        "BEA": 17.0,
+        "NOR": 15.0,
+        "GAS": 9.0,
+        "VER": 8.0,
+        "LAW": 8.0,
+        "LIN": 4.0,
+        "HAD": 4.0,
+        "PIA": 3.0,
+        "SAI": 2.0,
+        "BOR": 2.0,
+        "COL": 1.0,
+        "OCO": 0.0,
+        "HUL": 0.0,
+        "ALB": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "ALO": 0.0,
+        "STR": 0.0
+      }
+    },
+    {
+      "round": 3,
+      "event": "Japanese Grand Prix",
+      "probs": {
+        "ANT": 0.5804,
+        "RUS": 0.218,
+        "LEC": 0.142,
+        "HAM": 0.0462,
+        "NOR": 0.0053,
+        "PIA": 0.00315,
+        "BEA": 0.00235,
+        "GAS": 0.0019,
+        "VER": 0.0007,
+        "LAW": 0.0,
+        "LIN": 0.0,
+        "HAD": 0.0,
+        "BOR": 0.0,
+        "SAI": 0.0,
+        "OCO": 0.0,
+        "COL": 0.0,
+        "HUL": 0.0,
+        "ALB": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "ALO": 0.0,
+        "STR": 0.0
+      },
+      "points": {
+        "ANT": 72.0,
+        "RUS": 63.0,
+        "LEC": 49.0,
+        "HAM": 41.0,
+        "NOR": 25.0,
+        "PIA": 21.0,
+        "BEA": 17.0,
+        "GAS": 15.0,
+        "VER": 12.0,
+        "LAW": 10.0,
+        "LIN": 4.0,
+        "HAD": 4.0,
+        "BOR": 2.0,
+        "SAI": 2.0,
+        "OCO": 1.0,
+        "COL": 1.0,
+        "HUL": 0.0,
+        "ALB": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "ALO": 0.0,
+        "STR": 0.0
+      }
+    },
+    {
+      "round": 4,
+      "event": "Miami Grand Prix",
+      "probs": {
+        "ANT": 0.7591,
+        "RUS": 0.1366,
+        "LEC": 0.0436,
+        "NOR": 0.02175,
+        "HAM": 0.0278,
+        "PIA": 0.0094,
+        "VER": 0.0014,
+        "BEA": 5e-05,
+        "GAS": 0.00025,
+        "LAW": 5e-05,
+        "COL": 0.0,
+        "LIN": 0.0,
+        "HAD": 0.0,
+        "SAI": 0.0,
+        "BOR": 0.0,
+        "OCO": 0.0,
+        "ALB": 0.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "ALO": 0.0,
+        "STR": 0.0
+      },
+      "points": {
+        "ANT": 100.0,
+        "RUS": 80.0,
+        "LEC": 59.0,
+        "NOR": 51.0,
+        "HAM": 51.0,
+        "PIA": 43.0,
+        "VER": 26.0,
+        "BEA": 17.0,
+        "GAS": 16.0,
+        "LAW": 10.0,
+        "COL": 7.0,
+        "LIN": 4.0,
+        "HAD": 4.0,
+        "SAI": 4.0,
+        "BOR": 2.0,
+        "OCO": 1.0,
+        "ALB": 1.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "ALO": 0.0,
+        "STR": 0.0
+      }
+    },
+    {
+      "round": 5,
+      "event": "Canadian Grand Prix",
+      "probs": {
+        "ANT": 0.89135,
+        "RUS": 0.0222,
+        "LEC": 0.03395,
+        "HAM": 0.0452,
+        "NOR": 0.00355,
+        "PIA": 0.00065,
+        "VER": 0.003,
+        "GAS": 0.0001,
+        "BEA": 0.0,
+        "LAW": 0.0,
+        "COL": 0.0,
+        "HAD": 0.0,
+        "SAI": 0.0,
+        "LIN": 0.0,
+        "BOR": 0.0,
+        "OCO": 0.0,
+        "ALB": 0.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "STR": 0.0,
+        "ALO": 0.0
+      },
+      "points": {
+        "ANT": 131.0,
+        "RUS": 88.0,
+        "LEC": 75.0,
+        "HAM": 72.0,
+        "NOR": 58.0,
+        "PIA": 48.0,
+        "VER": 43.0,
+        "GAS": 20.0,
+        "BEA": 18.0,
+        "LAW": 16.0,
+        "COL": 15.0,
+        "HAD": 14.0,
+        "SAI": 6.0,
+        "LIN": 5.0,
+        "BOR": 2.0,
+        "OCO": 1.0,
+        "ALB": 1.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "STR": 0.0,
+        "ALO": 0.0
+      }
+    },
+    {
+      "round": 6,
+      "event": "Monaco Grand Prix",
+      "probs": {
+        "ANT": 0.9378,
+        "HAM": 0.05435,
+        "RUS": 0.0005,
+        "LEC": 0.0053,
+        "PIA": 0.00095,
+        "NOR": 0.0006,
+        "VER": 0.0004,
+        "HAD": 5e-05,
+        "LAW": 0.0,
+        "GAS": 5e-05,
+        "BEA": 0.0,
+        "COL": 0.0,
+        "LIN": 0.0,
+        "SAI": 0.0,
+        "ALB": 0.0,
+        "OCO": 0.0,
+        "BOR": 0.0,
+        "ALO": 0.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "STR": 0.0
+      },
+      "points": {
+        "ANT": 156.0,
+        "HAM": 90.0,
+        "RUS": 88.0,
+        "LEC": 75.0,
+        "PIA": 60.0,
+        "NOR": 58.0,
+        "VER": 43.0,
+        "HAD": 29.0,
+        "LAW": 26.0,
+        "GAS": 26.0,
+        "BEA": 18.0,
+        "COL": 15.0,
+        "LIN": 13.0,
+        "SAI": 6.0,
+        "ALB": 5.0,
+        "OCO": 3.0,
+        "BOR": 2.0,
+        "ALO": 1.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "STR": 0.0
+      }
+    },
+    {
+      "round": 7,
+      "event": "Barcelona Grand Prix",
+      "probs": {
+        "ANT": 0.76205,
+        "HAM": 0.21945,
+        "RUS": 0.0096,
+        "LEC": 0.00185,
+        "NOR": 0.00305,
+        "PIA": 0.002,
+        "VER": 0.0016,
+        "HAD": 0.0002,
+        "GAS": 0.00015,
+        "LAW": 5e-05,
+        "BEA": 0.0,
+        "COL": 0.0,
+        "LIN": 0.0,
+        "SAI": 0.0,
+        "ALB": 0.0,
+        "OCO": 0.0,
+        "BOR": 0.0,
+        "ALO": 0.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "STR": 0.0
+      },
+      "points": {
+        "ANT": 156.0,
+        "HAM": 115.0,
+        "RUS": 106.0,
+        "LEC": 75.0,
+        "NOR": 73.0,
+        "PIA": 70.0,
+        "VER": 55.0,
+        "HAD": 37.0,
+        "GAS": 32.0,
+        "LAW": 30.0,
+        "BEA": 18.0,
+        "COL": 16.0,
+        "LIN": 15.0,
+        "SAI": 6.0,
+        "ALB": 5.0,
+        "OCO": 3.0,
+        "BOR": 2.0,
+        "ALO": 1.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "STR": 0.0
+      }
+    },
+    {
+      "round": 8,
+      "event": "Austrian Grand Prix",
+      "probs": {
+        "ANT": 0.7812,
+        "RUS": 0.03675,
+        "HAM": 0.1708,
+        "PIA": 0.0036,
+        "NOR": 0.00175,
+        "LEC": 0.00085,
+        "VER": 0.005,
+        "HAD": 0.0,
+        "LAW": 5e-05,
+        "GAS": 0.0,
+        "BEA": 0.0,
+        "COL": 0.0,
+        "LIN": 0.0,
+        "SAI": 0.0,
+        "ALB": 0.0,
+        "OCO": 0.0,
+        "BOR": 0.0,
+        "ALO": 0.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "STR": 0.0
+      },
+      "points": {
+        "ANT": 171.0,
+        "RUS": 131.0,
+        "HAM": 125.0,
+        "PIA": 82.0,
+        "NOR": 79.0,
+        "LEC": 79.0,
+        "VER": 73.0,
+        "HAD": 45.0,
+        "LAW": 32.0,
+        "GAS": 32.0,
+        "BEA": 18.0,
+        "COL": 16.0,
+        "LIN": 16.0,
+        "SAI": 6.0,
+        "ALB": 5.0,
+        "OCO": 3.0,
+        "BOR": 2.0,
+        "ALO": 1.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "STR": 0.0
+      }
+    },
+    {
+      "round": 9,
+      "event": "British Grand Prix",
+      "probs": {
+        "ANT": 0.3087,
+        "RUS": 0.252,
+        "HAM": 0.41415,
+        "LEC": 0.0107,
+        "NOR": 0.00895,
+        "PIA": 0.0016,
+        "VER": 0.00355,
+        "HAD": 0.0003,
+        "LAW": 5e-05,
+        "GAS": 0.0,
+        "LIN": 0.0,
+        "BEA": 0.0,
+        "COL": 0.0,
+        "BOR": 0.0,
+        "SAI": 0.0,
+        "ALB": 0.0,
+        "OCO": 0.0,
+        "ALO": 0.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "STR": 0.0
+      },
+      "points": {
+        "ANT": 179.0,
+        "RUS": 154.0,
+        "HAM": 147.0,
+        "LEC": 108.0,
+        "NOR": 97.0,
+        "PIA": 84.0,
+        "VER": 76.0,
+        "HAD": 55.0,
+        "LAW": 41.0,
+        "GAS": 33.0,
+        "LIN": 22.0,
+        "BEA": 18.0,
+        "COL": 18.0,
+        "BOR": 6.0,
+        "SAI": 6.0,
+        "ALB": 5.0,
+        "OCO": 3.0,
+        "ALO": 1.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "STR": 0.0
+      }
+    },
+    {
+      "round": 10,
+      "event": "Belgian Grand Prix",
+      "probs": {
+        "ANT": 0.57605,
+        "HAM": 0.3287,
+        "RUS": 0.06865,
+        "LEC": 0.0183,
+        "NOR": 0.0026,
+        "PIA": 0.00125,
+        "VER": 0.00415,
+        "HAD": 0.0003,
+        "LAW": 0.0,
+        "GAS": 0.0,
+        "LIN": 0.0,
+        "COL": 0.0,
+        "BEA": 0.0,
+        "BOR": 0.0,
+        "SAI": 0.0,
+        "ALB": 0.0,
+        "OCO": 0.0,
+        "ALO": 0.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "STR": 0.0
+      },
+      "points": {
+        "ANT": 204.0,
+        "HAM": 159.0,
+        "RUS": 154.0,
+        "LEC": 126.0,
+        "NOR": 103.0,
+        "PIA": 94.0,
+        "VER": 91.0,
+        "HAD": 63.0,
+        "LAW": 41.0,
+        "GAS": 33.0,
+        "LIN": 24.0,
+        "COL": 19.0,
+        "BEA": 18.0,
+        "BOR": 10.0,
+        "SAI": 6.0,
+        "ALB": 5.0,
+        "OCO": 3.0,
+        "ALO": 1.0,
+        "HUL": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0,
+        "STR": 0.0
+      }
+    },
+    {
+      "round": 11,
+      "event": "Hungarian Grand Prix",
+      "probs": {
+        "ANT": 0.67805,
+        "HAM": 0.2545,
+        "RUS": 0.02885,
+        "LEC": 0.0203,
+        "NOR": 0.0115,
+        "VER": 0.0066,
+        "PIA": 0.0001,
+        "HAD": 0.0001,
+        "LAW": 0.0,
+        "GAS": 0.0,
+        "LIN": 0.0,
+        "COL": 0.0,
+        "BEA": 0.0,
+        "BOR": 0.0,
+        "SAI": 0.0,
+        "ALB": 0.0,
+        "OCO": 0.0,
+        "HUL": 0.0,
+        "ALO": 0.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      },
+      "points": {
+        "ANT": 219.0,
+        "HAM": 169.0,
+        "RUS": 160.0,
+        "LEC": 138.0,
+        "NOR": 128.0,
+        "VER": 109.0,
+        "PIA": 94.0,
+        "HAD": 71.0,
+        "LAW": 45.0,
+        "GAS": 33.0,
+        "LIN": 25.0,
+        "COL": 19.0,
+        "BEA": 18.0,
+        "BOR": 10.0,
+        "SAI": 6.0,
+        "ALB": 5.0,
+        "OCO": 3.0,
+        "HUL": 2.0,
+        "ALO": 1.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      }
+    },
+    {
+      "round": 12,
+      "event": "Dutch Grand Prix",
+      "probs": {
+        "ANT": 0.77115,
+        "RUS": 0.03115,
+        "HAM": 0.16205,
+        "NOR": 0.0224,
+        "LEC": 0.0123,
+        "VER": 0.0009,
+        "PIA": 5e-05,
+        "HAD": 0.0,
+        "LAW": 0.0,
+        "GAS": 0.0,
+        "LIN": 0.0,
+        "COL": 0.0,
+        "BEA": 0.0,
+        "BOR": 0.0,
+        "HUL": 0.0,
+        "SAI": 0.0,
+        "ALB": 0.0,
+        "OCO": 0.0,
+        "ALO": 0.0,
+        "TSU": 0.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      },
+      "points": {
+        "ANT": 242.0,
+        "RUS": 183.0,
+        "HAM": 183.0,
+        "NOR": 159.0,
+        "LEC": 155.0,
+        "VER": 112.0,
+        "PIA": 106.0,
+        "HAD": 71.0,
+        "LAW": 51.0,
+        "GAS": 35.0,
+        "LIN": 25.0,
+        "COL": 19.0,
+        "BEA": 18.0,
+        "BOR": 10.0,
+        "HUL": 6.0,
+        "SAI": 6.0,
+        "ALB": 5.0,
+        "OCO": 3.0,
+        "ALO": 3.0,
+        "TSU": 0.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      }
+    },
+    {
+      "round": 13,
+      "event": "Italian Grand Prix",
+      "probs": {
+        "ANT": 0.90255,
+        "RUS": 0.02225,
+        "HAM": 0.0625,
+        "NOR": 0.01055,
+        "LEC": 0.0014,
+        "VER": 0.00075,
+        "PIA": 0.0,
+        "HAD": 0.0,
+        "LAW": 0.0,
+        "GAS": 0.0,
+        "LIN": 0.0,
+        "COL": 0.0,
+        "BEA": 0.0,
+        "BOR": 0.0,
+        "HUL": 0.0,
+        "SAI": 0.0,
+        "ALB": 0.0,
+        "OCO": 0.0,
+        "ALO": 0.0,
+        "TSU": 0.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      },
+      "points": {
+        "ANT": 267.0,
+        "RUS": 201.0,
+        "HAM": 191.0,
+        "NOR": 171.0,
+        "LEC": 155.0,
+        "VER": 127.0,
+        "PIA": 116.0,
+        "HAD": 71.0,
+        "LAW": 51.0,
+        "GAS": 41.0,
+        "LIN": 29.0,
+        "COL": 21.0,
+        "BEA": 18.0,
+        "BOR": 10.0,
+        "HUL": 6.0,
+        "SAI": 6.0,
+        "ALB": 5.0,
+        "OCO": 3.0,
+        "ALO": 3.0,
+        "TSU": 1.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      }
+    },
+    {
+      "round": 14,
+      "event": "Spanish Grand Prix",
+      "probs": {
+        "ANT": 0.98185,
+        "RUS": 0.0053,
+        "HAM": 0.0078,
+        "NOR": 0.00475,
+        "LEC": 0.0001,
+        "VER": 0.0002,
+        "PIA": 0.0,
+        "HAD": 0.0,
+        "LAW": 0.0,
+        "GAS": 0.0,
+        "LIN": 0.0,
+        "COL": 0.0,
+        "BEA": 0.0,
+        "BOR": 0.0,
+        "HUL": 0.0,
+        "SAI": 0.0,
+        "ALB": 0.0,
+        "OCO": 0.0,
+        "ALO": 0.0,
+        "TSU": 0.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      },
+      "points": {
+        "ANT": 292.0,
+        "RUS": 211.0,
+        "HAM": 191.0,
+        "NOR": 186.0,
+        "LEC": 167.0,
+        "VER": 145.0,
+        "PIA": 120.0,
+        "HAD": 71.0,
+        "LAW": 59.0,
+        "GAS": 41.0,
+        "LIN": 31.0,
+        "COL": 27.0,
+        "BEA": 18.0,
+        "BOR": 10.0,
+        "HUL": 7.0,
+        "SAI": 6.0,
+        "ALB": 5.0,
+        "OCO": 3.0,
+        "ALO": 3.0,
+        "TSU": 1.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      }
+    },
+    {
+      "round": 15,
+      "event": "Azerbaijan Grand Prix",
+      "probs": {
+        "ANT": 0.973,
+        "RUS": 0.02175,
+        "HAM": 0.00425,
+        "NOR": 0.00065,
+        "LEC": 0.0002,
+        "VER": 0.00015,
+        "PIA": 0.0,
+        "HAD": 0.0,
+        "LAW": 0.0,
+        "GAS": 0.0,
+        "LIN": 0.0,
+        "COL": 0.0,
+        "BEA": 0.0,
+        "BOR": 0.0,
+        "HUL": 0.0,
+        "OCO": 0.0,
+        "SAI": 0.0,
+        "ALB": 0.0,
+        "ALO": 0.0,
+        "TSU": 0.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      },
+      "points": {
+        "ANT": 302.0,
+        "RUS": 236.0,
+        "HAM": 199.0,
+        "NOR": 186.0,
+        "LEC": 179.0,
+        "VER": 163.0,
+        "PIA": 120.0,
+        "HAD": 86.0,
+        "LAW": 59.0,
+        "GAS": 41.0,
+        "LIN": 37.0,
+        "COL": 27.0,
+        "BEA": 20.0,
+        "BOR": 10.0,
+        "HUL": 7.0,
+        "OCO": 7.0,
+        "SAI": 7.0,
+        "ALB": 5.0,
+        "ALO": 3.0,
+        "TSU": 1.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      }
+    },
+    {
+      "round": 16,
+      "event": "Bahrain Grand Prix in Malaysia",
+      "probs": {
+        "ANT": 0.99585,
+        "RUS": 0.0022,
+        "HAM": 0.0015,
+        "LEC": 0.0,
+        "NOR": 0.0001,
+        "VER": 0.00035,
+        "PIA": 0.0,
+        "HAD": 0.0,
+        "LAW": 0.0,
+        "GAS": 0.0,
+        "LIN": 0.0,
+        "COL": 0.0,
+        "BEA": 0.0,
+        "BOR": 0.0,
+        "HUL": 0.0,
+        "OCO": 0.0,
+        "ALO": 0.0,
+        "SAI": 0.0,
+        "ALB": 0.0,
+        "TSU": 0.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      },
+      "points": {
+        "ANT": 320.0,
+        "RUS": 236.0,
+        "HAM": 214.0,
+        "LEC": 191.0,
+        "NOR": 188.0,
+        "VER": 188.0,
+        "PIA": 128.0,
+        "HAD": 96.0,
+        "LAW": 65.0,
+        "GAS": 41.0,
+        "LIN": 38.0,
+        "COL": 27.0,
+        "BEA": 20.0,
+        "BOR": 10.0,
+        "HUL": 7.0,
+        "OCO": 7.0,
+        "ALO": 7.0,
+        "SAI": 7.0,
+        "ALB": 5.0,
+        "TSU": 1.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      }
+    },
+    {
+      "round": 17,
+      "event": "Singapore Grand Prix",
+      "probs": {
+        "ANT": 0.9998,
+        "RUS": 0.0001,
+        "HAM": 5e-05,
+        "VER": 5e-05,
+        "LEC": 0.0,
+        "NOR": 0.0,
+        "PIA": 0.0,
+        "HAD": 0.0,
+        "LAW": 0.0,
+        "GAS": 0.0,
+        "LIN": 0.0,
+        "COL": 0.0,
+        "BEA": 0.0,
+        "HUL": 0.0,
+        "BOR": 0.0,
+        "OCO": 0.0,
+        "ALO": 0.0,
+        "SAI": 0.0,
+        "ALB": 0.0,
+        "TSU": 0.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      },
+      "points": {
+        "ANT": 340.0,
+        "RUS": 238.0,
+        "HAM": 229.0,
+        "VER": 221.0,
+        "LEC": 215.0,
+        "NOR": 201.0,
+        "PIA": 138.0,
+        "HAD": 97.0,
+        "LAW": 75.0,
+        "GAS": 41.0,
+        "LIN": 38.0,
+        "COL": 27.0,
+        "BEA": 23.0,
+        "HUL": 13.0,
+        "BOR": 10.0,
+        "OCO": 7.0,
+        "ALO": 7.0,
+        "SAI": 7.0,
+        "ALB": 5.0,
+        "TSU": 1.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      }
+    }
+  ],
+  "historical_data_complete": true
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "code": "NOR",
+    "pos": 1,
+    "dnf": false,
+    "status": "Finished",
+    "team": "McLaren"
+  },
+  {
+    "code": "ANT",
+    "pos": 2,
+    "dnf": false,
+    "status": "Finished",
+    "team": "Mercedes"
+  },
+  {
+    "code": "RUS",
+    "pos": 3,
+    "dnf": false,
+    "status": "Finished",
+    "team": "Mercedes"
+  },
+  {
+    "code": "HAM",
+    "pos": 4,
+    "dnf": false,
+    "status": "Finished",
+    "team": "Ferrari"
+  },
+  {
+    "code": "LEC",
+    "pos": 5,
+    "dnf": false,
+    "status": "Finished",
+    "team": "Ferrari"
+  },
+  {
+    "code": "PIA",
+    "pos": 6,
+    "dnf": false,
+    "status": "Finished",
+    "team": "McLaren"
+  },
+  {
+    "code": "LAW",
+    "pos": 7,
+    "dnf": false,
+    "status": "Finished",
+    "team": "Red Bull"
+  },
+  {
+    "code": "HUL",
+    "pos": 8,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Audi"
+  },
+  {
+    "code": "ALO",
+    "pos": 9,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Aston Martin"
+  },
+  {
+    "code": "GAS",
+    "pos": 10,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Alpine F1 Team"
+  },
+  {
+    "code": "TSU",
+    "pos": 11,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "RB F1 Team"
+  },
+  {
+    "code": "LIN",
+    "pos": 12,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "RB F1 Team"
+  },
+  {
+    "code": "BOR",
+    "pos": 13,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Audi"
+  },
+  {
+    "code": "COL",
+    "pos": 14,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Alpine F1 Team"
+  },
+  {
+    "code": "PER",
+    "pos": 15,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Cadillac F1 Team"
+  },
+  {
+    "code": "SAI",
+    "pos": 16,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Williams"
+  },
+  {
+    "code": "ALB",
+    "pos": 17,
+    "dnf": true,
+    "status": "Retired",
+    "team": "Williams"
+  },
+  {
+    "code": "BOT",
+    "pos": 18,
+    "dnf": true,
+    "status": "Retired",
+    "team": "Cadillac F1 Team"
+  },
+  {
+    "code": "OCO",
+    "pos": 19,
+    "dnf": true,
+    "status": "Retired",
+    "team": "Haas F1 Team"
+  },
+  {
+    "code": "STR",
+    "pos": 20,
+    "dnf": true,
+    "status": "Retired",
+    "team": "Aston Martin"
+  },
+  {
+    "code": "BEA",
+    "pos": 21,
+    "dnf": true,
+    "status": "Retired",
+    "team": "Haas F1 Team"
+  },
+  {
+    "code": "VER",
+    "pos": 22,
+    "dnf": true,
+    "status": "Retired",
+    "team": "Red Bull"
+  }
+]

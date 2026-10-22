@@ -1,0 +1,235 @@
+{
+  "round": 14,
+  "drivers": [
+    {
+      "pos": 1,
+      "code": "ANT",
+      "name": "Andrea Kimi Antonelli",
+      "team": "Mercedes",
+      "points": 292.0,
+      "wins": 8,
+      "url": "https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli",
+      "number": "12"
+    },
+    {
+      "pos": 2,
+      "code": "RUS",
+      "name": "George Russell",
+      "team": "Mercedes",
+      "points": 211.0,
+      "wins": 2,
+      "url": "http://en.wikipedia.org/wiki/George_Russell_(racing_driver)",
+      "number": "63"
+    },
+    {
+      "pos": 3,
+      "code": "HAM",
+      "name": "Lewis Hamilton",
+      "team": "Ferrari",
+      "points": 191.0,
+      "wins": 1,
+      "url": "http://en.wikipedia.org/wiki/Lewis_Hamilton",
+      "number": "44"
+    },
+    {
+      "pos": 4,
+      "code": "NOR",
+      "name": "Lando Norris",
+      "team": "McLaren",
+      "points": 186.0,
+      "wins": 2,
+      "url": "http://en.wikipedia.org/wiki/Lando_Norris",
+      "number": "1"
+    },
+    {
+      "pos": 5,
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "team": "Ferrari",
+      "points": 167.0,
+      "wins": 1,
+      "url": "http://en.wikipedia.org/wiki/Charles_Leclerc",
+      "number": "16"
+    },
+    {
+      "pos": 6,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull",
+      "points": 145.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Max_Verstappen",
+      "number": "3"
+    },
+    {
+      "pos": 7,
+      "code": "PIA",
+      "name": "Oscar Piastri",
+      "team": "McLaren",
+      "points": 120.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Oscar_Piastri",
+      "number": "81"
+    },
+    {
+      "pos": 8,
+      "code": "HAD",
+      "name": "Isack Hadjar",
+      "team": "Red Bull",
+      "points": 71.0,
+      "wins": 0,
+      "url": "https://en.wikipedia.org/wiki/Isack_Hadjar",
+      "number": "6"
+    },
+    {
+      "pos": 9,
+      "code": "LAW",
+      "name": "Liam Lawson",
+      "team": "Red Bull",
+      "points": 59.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Liam_Lawson",
+      "number": "30"
+    },
+    {
+      "pos": 10,
+      "code": "GAS",
+      "name": "Pierre Gasly",
+      "team": "Alpine F1 Team",
+      "points": 41.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Pierre_Gasly",
+      "number": "10"
+    },
+    {
+      "pos": 11,
+      "code": "LIN",
+      "name": "Arvid Lindblad",
+      "team": "RB F1 Team",
+      "points": 31.0,
+      "wins": 0,
+      "url": "https://en.wikipedia.org/wiki/Arvid_Lindblad",
+      "number": "41"
+    },
+    {
+      "pos": 12,
+      "code": "COL",
+      "name": "Franco Colapinto",
+      "team": "Alpine F1 Team",
+      "points": 27.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Franco_Colapinto",
+      "number": "43"
+    },
+    {
+      "pos": 13,
+      "code": "BEA",
+      "name": "Oliver Bearman",
+      "team": "Haas F1 Team",
+      "points": 18.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Oliver_Bearman",
+      "number": "87"
+    },
+    {
+      "pos": 14,
+      "code": "BOR",
+      "name": "Gabriel Bortoleto",
+      "team": "Audi",
+      "points": 10.0,
+      "wins": 0,
+      "url": "https://en.wikipedia.org/wiki/Gabriel_Bortoleto",
+      "number": "5"
+    },
+    {
+      "pos": 15,
+      "code": "HUL",
+      "name": "Nico Hülkenberg",
+      "team": "Audi",
+      "points": 7.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg",
+      "number": "27"
+    },
+    {
+      "pos": 16,
+      "code": "SAI",
+      "name": "Carlos Sainz",
+      "team": "Williams",
+      "points": 6.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Carlos_Sainz_Jr.",
+      "number": "55"
+    },
+    {
+      "pos": 17,
+      "code": "ALB",
+      "name": "Alexander Albon",
+      "team": "Williams",
+      "points": 5.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Alexander_Albon",
+      "number": "23"
+    },
+    {
+      "pos": 18,
+      "code": "OCO",
+      "name": "Esteban Ocon",
+      "team": "Haas F1 Team",
+      "points": 3.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Esteban_Ocon",
+      "number": "31"
+    },
+    {
+      "pos": 19,
+      "code": "ALO",
+      "name": "Fernando Alonso",
+      "team": "Aston Martin",
+      "points": 3.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Fernando_Alonso",
+      "number": "14"
+    },
+    {
+      "pos": 20,
+      "code": "TSU",
+      "name": "Yuki Tsunoda",
+      "team": "RB F1 Team",
+      "points": 1.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Yuki_Tsunoda",
+      "number": "22"
+    },
+    {
+      "pos": 21,
+      "code": "STR",
+      "name": "Lance Stroll",
+      "team": "Aston Martin",
+      "points": 0.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Lance_Stroll",
+      "number": "18"
+    },
+    {
+      "pos": 22,
+      "code": "BOT",
+      "name": "Valtteri Bottas",
+      "team": "Cadillac F1 Team",
+      "points": 0.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Valtteri_Bottas",
+      "number": "77"
+    },
+    {
+      "pos": 23,
+      "code": "PER",
+      "name": "Sergio Pérez",
+      "team": "Cadillac F1 Team",
+      "points": 0.0,
+      "wins": 0,
+      "url": "http://en.wikipedia.org/wiki/Sergio_P%C3%A9rez",
+      "number": "11"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# Keeps the deployed app fresh: checks every 30 min on race weekends (Fri-Sun, UTC),
+# predicts after qualifying, commits new data -> Streamlit Cloud redeploys automatically.
+name: auto-update-predictions
+on:
+  schedule:
+    - cron: "*/30 * * * 5,6,0,1,2"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip }
+      - run: pip install -r requirements.txt
+      - run: python src/auto_update.py --once
+      - name: Commit changes
+        run: |
+          git config user.name "f1-insights-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || (git commit -m "auto: update data/predictions" && git push)

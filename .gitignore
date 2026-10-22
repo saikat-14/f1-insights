@@ -2,6 +2,6 @@
 __pycache__/
 .env
 f1_cache/
-data/raw/
 *.pyc
 .ipynb_checkpoints/
+data/processed/update.lock

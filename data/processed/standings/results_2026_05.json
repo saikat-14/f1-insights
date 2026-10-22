@@ -1,0 +1,156 @@
+[
+  {
+    "code": "ANT",
+    "pos": 1,
+    "dnf": false,
+    "status": "Finished",
+    "team": "Mercedes"
+  },
+  {
+    "code": "HAM",
+    "pos": 2,
+    "dnf": false,
+    "status": "Finished",
+    "team": "Ferrari"
+  },
+  {
+    "code": "VER",
+    "pos": 3,
+    "dnf": false,
+    "status": "Finished",
+    "team": "Red Bull"
+  },
+  {
+    "code": "LEC",
+    "pos": 4,
+    "dnf": false,
+    "status": "Finished",
+    "team": "Ferrari"
+  },
+  {
+    "code": "HAD",
+    "pos": 5,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Red Bull"
+  },
+  {
+    "code": "COL",
+    "pos": 6,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Alpine F1 Team"
+  },
+  {
+    "code": "LAW",
+    "pos": 7,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "RB F1 Team"
+  },
+  {
+    "code": "GAS",
+    "pos": 8,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Alpine F1 Team"
+  },
+  {
+    "code": "SAI",
+    "pos": 9,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Williams"
+  },
+  {
+    "code": "BEA",
+    "pos": 10,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Haas F1 Team"
+  },
+  {
+    "code": "PIA",
+    "pos": 11,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "McLaren"
+  },
+  {
+    "code": "HUL",
+    "pos": 12,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Audi"
+  },
+  {
+    "code": "BOR",
+    "pos": 13,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Audi"
+  },
+  {
+    "code": "OCO",
+    "pos": 14,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Haas F1 Team"
+  },
+  {
+    "code": "STR",
+    "pos": 15,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Aston Martin"
+  },
+  {
+    "code": "BOT",
+    "pos": 16,
+    "dnf": false,
+    "status": "Lapped",
+    "team": "Cadillac F1 Team"
+  },
+  {
+    "code": "PER",
+    "pos": 17,
+    "dnf": true,
+    "status": "Retired",
+    "team": "Cadillac F1 Team"
+  },
+  {
+    "code": "NOR",
+    "pos": 18,
+    "dnf": true,
+    "status": "Retired",
+    "team": "McLaren"
+  },
+  {
+    "code": "RUS",
+    "pos": 19,
+    "dnf": true,
+    "status": "Retired",
+    "team": "Mercedes"
+  },
+  {
+    "code": "ALO",
+    "pos": 20,
+    "dnf": true,
+    "status": "Retired",
+    "team": "Aston Martin"
+  },
+  {
+    "code": "ALB",
+    "pos": 21,
+    "dnf": true,
+    "status": "Retired",
+    "team": "Williams"
+  },
+  {
+    "code": "LIN",
+    "pos": 22,
+    "dnf": true,
+    "status": "Did not start",
+    "team": "RB F1 Team"
+  }
+]
