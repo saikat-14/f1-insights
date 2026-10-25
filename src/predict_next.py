@@ -34,19 +34,21 @@ def predict_race(raw: pd.DataFrame, stub: pd.DataFrame, mdir: Path, sims=5000) -
 
 
 def stub_from_quali(season, rnd, event, country, quali_results: pd.DataFrame, rain: int) -> pd.DataFrame:
-    qr = quali_results.copy()
-    secs = pd.concat([pd.to_timedelta(qr[c], errors="coerce").dt.total_seconds() for c in ("Q1", "Q2", "Q3")], axis=1)
-    best = secs.min(axis=1)
+    """Qualifying classification (+ official starting grid when known) -> one model-input row per driver."""
+    import quali_sources as Q
+    d = Q.normalize(quali_results)
+    grid, _source = Q.resolve_grid(d)  # official grid with penalties if available, else classification order
+    secs = pd.concat([d[c].dt.total_seconds() for c in ("Q1", "Q2", "Q3")], axis=1)
+    best = secs.min(axis=1)  # a driver with no lap time stays NaN -> quali_missing = 1 (not invented)
     pole = best.min()
     stub = pd.DataFrame({
         "season": season, "round": rnd, "event": event, "country": country,
-        "driver": qr["Abbreviation"].values, "team": qr["TeamName"].values,
-        "quali_pos": pd.to_numeric(qr["Position"], errors="coerce").values,
-        "quali_best_s": best.values,
+        "driver": d["Abbreviation"].values, "team": d["TeamName"].values,
+        "quali_pos": d["Position"].values, "quali_best_s": best.values,
     })
     stub["quali_gap_pct"] = (stub["quali_best_s"] - pole) / pole * 100
     stub["quali_missing"] = stub["quali_best_s"].isna().astype(int)
-    stub["grid"] = stub["quali_pos"].fillna(99).rank(method="first")
+    stub["grid"] = grid.values.astype(float)
     stub["rain"] = rain
     stub["rain_share"] = 0.3 * rain
     return stub

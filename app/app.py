@@ -15,7 +15,6 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
-import streamlit.components.v1 as components
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
@@ -60,6 +59,15 @@ def pred_sig():
 
 def md(html_str):
     st.markdown(html_str, unsafe_allow_html=True)
+
+
+def show_html(html_str, height):
+    """Render a self-contained HTML block. Uses st.iframe (current API); falls back for older Streamlit versions."""
+    if hasattr(st, "iframe"):
+        st.iframe(html_str, height=int(height))
+    else:  # pragma: no cover - only for Streamlit < 1.56
+        import streamlit.components.v1 as components
+        components.html(html_str, height=int(height))
 
 
 def fig_style(fig, h=320, title=None):
@@ -112,17 +120,49 @@ def watch_for_prediction(sig):
     st.caption("🔄 Checking automatically every minute. No manual refresh needed.")
 
 
-def waiting_card(info):
+def source_table(status):
+    """Per-source result of the last check, so a failure is explained rather than hidden."""
+    rows = status.get("attempts") or []
+    if not rows:
+        return
+    label = {"ok": "OK", "not_published": "Not published yet", "rate_limited": "Rate limited", "timeout": "Timed out",
+             "network": "Cannot connect", "http_error": "HTTP error", "invalid": "Rejected: invalid data",
+             "mismatch": "Wrong event", "skipped": "Skipped (backing off)", "error": "Error"}
+    st.dataframe(pd.DataFrame([{"Source": r["source"], "Result": label.get(r["status"], r["status"]), "Detail": r["detail"]} for r in rows]),
+                 hide_index=True, width="stretch")
+
+
+def retry_button(where):
+    if st.button("Retry now", key=f"retry_{where}"):
+        import auto_update
+        with st.spinner("Checking all data sources..."):
+            msg = auto_update.update_if_needed(championship=False)
+        load.clear()
+        (st.success if msg.startswith("prediction") else st.warning)(msg)
+        if pred_sig():
+            st.rerun()
+
+
+def waiting_card(info, where="home"):
     now = pd.Timestamp.now(tz="UTC")
     ready = info.get("quali_ready")
     if ready is not None and now < ready:
         t = ready.tz_convert(IST).strftime("%a %d %b, %I:%M %p IST")
         md(ui.stat_card("Prediction unlocks automatically", f"~{t}"))
-        st.caption("About 75 minutes after qualifying starts, F1-InSights pulls the grid, reads the weather forecast "
+        st.caption("About 75 minutes after qualifying starts, F1 Insights pulls the grid, reads the weather forecast "
                    "and publishes the prediction here by itself.")
     else:
-        md(ui.stat_card("Qualifying is done", "Generating prediction..."))
-        st.caption("This usually takes a few minutes. The page updates on its own.")
+        status = load("update_status.json") or {}
+        when = pd.Timestamp(status["checked_at"]).tz_convert(IST).strftime("%I:%M %p IST") if status.get("checked_at") else None
+        if status.get("state") == "error":
+            md(ui.stat_card("Qualifying has finished", "Results not available from any source yet"))
+            st.error(f"Last check {when}: none of the data sources returned valid qualifying results. "
+                     "The prediction will be generated automatically as soon as one does (checked every 15 minutes).")
+            source_table(status)
+        else:
+            md(ui.stat_card("Qualifying has finished", "Preparing the prediction"))
+            st.caption(f"Last check {when}: {status.get('message')}" if when else "The first check runs in the background shortly after the app starts.")
+        retry_button(where)
     watch_for_prediction(pred_sig())
 
 
@@ -176,7 +216,7 @@ def page_home():
         return
     wx = forecast_cached(info["location"], info["race_start"].isoformat(), info["country"])
     md(ui.hero_card(info))
-    components.html(ui.countdown_html(info["target_iso"], info["target_label"]), height=125)
+    show_html(ui.countdown_html(info["target_iso"], info["target_label"]), height=125)
 
     c1, c2, c3, _ = st.columns([1.2, 1.2, 1.2, 2])
     if c1.button("Circuit map"):
@@ -212,9 +252,9 @@ def page_home():
     st.markdown("### Predicted podium")
     nr, _meta = current_prediction(info)
     if nr is not None:
-        components.html(ui.podium_html(nr, show_rest=False), height=ui.podium_height(len(nr), False, False))
+        show_html(ui.podium_html(nr, show_rest=False), height=ui.podium_height(len(nr), False, False))
     else:
-        waiting_card(info)
+        waiting_card(info, "home")
 
     res = load("results.parquet")
     if res is not None and len(res):
@@ -305,12 +345,19 @@ def page_predictor():
             nr, meta = current_prediction(info)
             st.markdown(f"### {info['event']} · Round {info['round']}")
             if nr is None:
-                waiting_card(info)
+                waiting_card(info, "predictor")
             else:
                 gen = pd.Timestamp(meta.get("generated_at")).tz_convert(IST).strftime("%a %d %b, %I:%M %p IST") if meta.get("generated_at") else "-"
                 rain = "wet" if meta.get("rain_assumed") else "dry"
-                st.caption(f"Based on the qualifying grid, assuming a {rain} race · generated {gen} · updates itself after each qualifying.")
-                components.html(ui.podium_html(nr, caption="Predicted finishing order"), height=ui.podium_height(len(nr)))
+                src, gsrc = meta.get("quali_source"), meta.get("grid_source")
+                st.caption(f"Qualifying data: {src or 'n/a'} · grid: {gsrc or 'qualifying order'} · assuming a {rain} race · generated {gen}.")
+                status = load("update_status.json") or {}
+                if status.get("state") == "error":
+                    st.warning("The latest refresh failed, so this is the last good prediction. It will update automatically when "
+                               "the data sources recover.")
+                    source_table(status)
+                    retry_button("predictor_ok")
+                show_html(ui.podium_html(nr, caption="Predicted finishing order"), height=ui.podium_height(len(nr)))
     with tab_past:
         bt = load("backtest.parquet")
         if bt is None:
@@ -328,7 +375,7 @@ def page_predictor():
             m1.metric("Model's top pick", str(top["driver"]), f"{top['win_prob'] * 100:.0f}% win chance", delta_color="off")
             m2.metric("Pole sitter", str(g.sort_values("grid").iloc[0]["driver"]))
             m3.metric("Actual winner", str(win.iloc[0]["driver"]) if len(win) else "-")
-            components.html(ui.podium_html(g, actual=True, caption="What the model predicted"), height=ui.podium_height(len(g)))
+            show_html(ui.podium_html(g, actual=True, caption="What the model predicted"), height=ui.podium_height(len(g)))
 
 
 # ---------------------------------------------------------------- strategy
@@ -559,7 +606,7 @@ def page_tracks():
                                   f"Round {o['round']} · {o['season']}") if x)
     tr = tracks.get(o["event"])
     if tr:
-        components.html(ui.track2d_html(tr, o["event"], sub), height=600)
+        show_html(ui.track2d_html(tr, o["event"], sub), height=600)
         z = tr.get("z") or [0]
         items = []
         if tr.get("length_m"):

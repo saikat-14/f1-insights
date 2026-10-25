@@ -1,13 +1,13 @@
 {
   "clinched": false,
   "season": 2026,
-  "as_of_round": 17,
-  "as_of_event": "Singapore Grand Prix",
+  "as_of_round": 18,
+  "as_of_event": "United States Grand Prix",
   "total_rounds": 23,
-  "remaining_rounds": 6,
+  "remaining_rounds": 5,
   "remaining_sprints": 0,
-  "max_points_remaining": 150,
-  "generated_at": "2026-10-22T10:04:31.948363+00:00",
+  "max_points_remaining": 125,
+  "generated_at": "2026-10-25T17:54:44.516629+00:00",
   "source": "Jolpica-F1 API",
   "data_status": "official",
   "pending_race": null,
@@ -25,11 +25,11 @@
       "podiums": 14,
       "gap_leader": 0.0,
       "gap_ahead": 0.0,
-      "max_possible": 490.0,
+      "max_possible": 465.0,
       "eliminated": false,
-      "prob": 0.9998,
-      "prev_prob": 0.99585,
-      "prob_change": 0.003950000000000009,
+      "prob": 0.99995,
+      "prev_prob": 0.9998,
+      "prob_change": 0.00014999999999998348,
       "trend": "flat",
       "form": [
         {
@@ -58,7 +58,7 @@
           "dnf": false
         }
       ],
-      "points_last3": 48.0,
+      "points_last3": 38.0,
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Kimi_Antonelli_at_the_2025_US_Grand_Prix_in_Austin%2C_TX_%28cropped%29.jpg/330px-Kimi_Antonelli_at_the_2025_US_Grand_Prix_in_Austin%2C_TX_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -72,11 +72,11 @@
       "podiums": 8,
       "gap_leader": 102.0,
       "gap_ahead": 102.0,
-      "max_possible": 388.0,
+      "max_possible": 363.0,
       "eliminated": false,
-      "prob": 0.0001,
-      "prev_prob": 0.0022,
-      "prob_change": -0.0021000000000000003,
+      "prob": 0.0,
+      "prev_prob": 0.0001,
+      "prob_change": -0.0001,
       "trend": "flat",
       "form": [
         {
@@ -105,7 +105,7 @@
           "dnf": false
         }
       ],
-      "points_last3": 27.0,
+      "points_last3": 2.0,
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/KingsLeonSilverstne040724_%2828_of_112%29_%2853838006028%29_%28cropped%29.jpg/330px-KingsLeonSilverstne040724_%2828_of_112%29_%2853838006028%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -119,11 +119,11 @@
       "podiums": 6,
       "gap_leader": 111.0,
       "gap_ahead": 9.0,
-      "max_possible": 379.0,
+      "max_possible": 354.0,
       "eliminated": false,
-      "prob": 5e-05,
-      "prev_prob": 0.0015,
-      "prob_change": -0.0014500000000000001,
+      "prob": 0.0,
+      "prev_prob": 5e-05,
+      "prob_change": -5e-05,
       "trend": "flat",
       "form": [
         {
@@ -152,7 +152,7 @@
           "dnf": false
         }
       ],
-      "points_last3": 38.0,
+      "points_last3": 30.0,
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_%2854566928382%29_%28cropped%29.jpg/330px-Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_%2854566928382%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -166,11 +166,11 @@
       "podiums": 9,
       "gap_leader": 119.0,
       "gap_ahead": 8.0,
-      "max_possible": 371.0,
+      "max_possible": 346.0,
       "eliminated": false,
       "prob": 5e-05,
-      "prev_prob": 0.00035,
-      "prob_change": -0.0003,
+      "prev_prob": 5e-05,
+      "prob_change": 0.0,
       "trend": "flat",
       "form": [
         {
@@ -199,7 +199,7 @@
           "dnf": false
         }
       ],
-      "points_last3": 76.0,
+      "points_last3": 58.0,
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_%28medium_crop%29.jpg/330px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_%28medium_crop%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -213,7 +213,7 @@
       "podiums": 5,
       "gap_leader": 125.0,
       "gap_ahead": 6.0,
-      "max_possible": 365.0,
+      "max_possible": 340.0,
       "eliminated": false,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -246,7 +246,7 @@
           "dnf": false
         }
       ],
-      "points_last3": 48.0,
+      "points_last3": 36.0,
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Charles_Leclerc_at_the_2026_Cannes_Film_Festival_%28cropped%29.jpg/330px-Charles_Leclerc_at_the_2026_Cannes_Film_Festival_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -260,11 +260,11 @@
       "podiums": 5,
       "gap_leader": 139.0,
       "gap_ahead": 14.0,
-      "max_possible": 351.0,
-      "eliminated": false,
+      "max_possible": 326.0,
+      "eliminated": true,
       "prob": 0.0,
-      "prev_prob": 0.0001,
-      "prob_change": -0.0001,
+      "prev_prob": 0.0,
+      "prob_change": 0.0,
       "trend": "flat",
       "form": [
         {
@@ -307,7 +307,7 @@
       "podiums": 2,
       "gap_leader": 202.0,
       "gap_ahead": 63.0,
-      "max_possible": 288.0,
+      "max_possible": 263.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -354,7 +354,7 @@
       "podiums": 2,
       "gap_leader": 243.0,
       "gap_ahead": 41.0,
-      "max_possible": 247.0,
+      "max_possible": 222.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -387,7 +387,7 @@
           "dnf": false
         }
       ],
-      "points_last3": 26.0,
+      "points_last3": 11.0,
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Isack_Hadjar_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8753%29_%28cropped%29.jpg/330px-Isack_Hadjar_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8753%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -401,7 +401,7 @@
       "podiums": 0,
       "gap_leader": 265.0,
       "gap_ahead": 22.0,
-      "max_possible": 225.0,
+      "max_possible": 200.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -448,7 +448,7 @@
       "podiums": 0,
       "gap_leader": 299.0,
       "gap_ahead": 34.0,
-      "max_possible": 191.0,
+      "max_possible": 166.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -495,7 +495,7 @@
       "podiums": 0,
       "gap_leader": 302.0,
       "gap_ahead": 3.0,
-      "max_possible": 188.0,
+      "max_possible": 163.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -528,7 +528,7 @@
           "dnf": false
         }
       ],
-      "points_last3": 7.0,
+      "points_last3": 1.0,
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Arvid_Lindblad_at_the_Red_Bull_Fan_Zone_%E2%80%93_Crown_Riverwalk%2C_Melbourne_%28028A7869%29_%28cropped%29.jpg/330px-Arvid_Lindblad_at_the_Red_Bull_Fan_Zone_%E2%80%93_Crown_Riverwalk%2C_Melbourne_%28028A7869%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -542,7 +542,7 @@
       "podiums": 0,
       "gap_leader": 313.0,
       "gap_ahead": 11.0,
-      "max_possible": 177.0,
+      "max_possible": 152.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -589,7 +589,7 @@
       "podiums": 0,
       "gap_leader": 317.0,
       "gap_ahead": 4.0,
-      "max_possible": 173.0,
+      "max_possible": 148.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -622,7 +622,7 @@
           "dnf": false
         }
       ],
-      "points_last3": 5.0,
+      "points_last3": 3.0,
       "image": null
     },
     {
@@ -636,7 +636,7 @@
       "podiums": 0,
       "gap_leader": 327.0,
       "gap_ahead": 10.0,
-      "max_possible": 163.0,
+      "max_possible": 138.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -683,7 +683,7 @@
       "podiums": 0,
       "gap_leader": 330.0,
       "gap_ahead": 3.0,
-      "max_possible": 160.0,
+      "max_possible": 135.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -730,7 +730,7 @@
       "podiums": 0,
       "gap_leader": 333.0,
       "gap_ahead": 3.0,
-      "max_possible": 157.0,
+      "max_possible": 132.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -763,7 +763,7 @@
           "dnf": false
         }
       ],
-      "points_last3": 4.0,
+      "points_last3": 0.0,
       "image": null
     },
     {
@@ -777,7 +777,7 @@
       "podiums": 0,
       "gap_leader": 333.0,
       "gap_ahead": 0.0,
-      "max_possible": 157.0,
+      "max_possible": 132.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -824,7 +824,7 @@
       "podiums": 0,
       "gap_leader": 333.0,
       "gap_ahead": 0.0,
-      "max_possible": 157.0,
+      "max_possible": 132.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -857,7 +857,7 @@
           "dnf": false
         }
       ],
-      "points_last3": 1.0,
+      "points_last3": 0.0,
       "image": null
     },
     {
@@ -871,7 +871,7 @@
       "podiums": 0,
       "gap_leader": 335.0,
       "gap_ahead": 2.0,
-      "max_possible": 155.0,
+      "max_possible": 130.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -918,7 +918,7 @@
       "podiums": 0,
       "gap_leader": 339.0,
       "gap_ahead": 4.0,
-      "max_possible": 151.0,
+      "max_possible": 126.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -955,7 +955,7 @@
       "podiums": 0,
       "gap_leader": 340.0,
       "gap_ahead": 1.0,
-      "max_possible": 150.0,
+      "max_possible": 125.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -1002,7 +1002,7 @@
       "podiums": 0,
       "gap_leader": 340.0,
       "gap_ahead": 0.0,
-      "max_possible": 150.0,
+      "max_possible": 125.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -1049,7 +1049,7 @@
       "podiums": 0,
       "gap_leader": 340.0,
       "gap_ahead": 0.0,
-      "max_possible": 150.0,
+      "max_possible": 125.0,
       "eliminated": true,
       "prob": 0.0,
       "prev_prob": 0.0,
@@ -1936,6 +1936,60 @@
         "ANT": 0.9998,
         "RUS": 0.0001,
         "HAM": 5e-05,
+        "VER": 5e-05,
+        "LEC": 0.0,
+        "NOR": 0.0,
+        "PIA": 0.0,
+        "HAD": 0.0,
+        "LAW": 0.0,
+        "GAS": 0.0,
+        "LIN": 0.0,
+        "COL": 0.0,
+        "BEA": 0.0,
+        "HUL": 0.0,
+        "BOR": 0.0,
+        "OCO": 0.0,
+        "ALO": 0.0,
+        "SAI": 0.0,
+        "ALB": 0.0,
+        "TSU": 0.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      },
+      "points": {
+        "ANT": 340.0,
+        "RUS": 238.0,
+        "HAM": 229.0,
+        "VER": 221.0,
+        "LEC": 215.0,
+        "NOR": 201.0,
+        "PIA": 138.0,
+        "HAD": 97.0,
+        "LAW": 75.0,
+        "GAS": 41.0,
+        "LIN": 38.0,
+        "COL": 27.0,
+        "BEA": 23.0,
+        "HUL": 13.0,
+        "BOR": 10.0,
+        "OCO": 7.0,
+        "ALO": 7.0,
+        "SAI": 7.0,
+        "ALB": 5.0,
+        "TSU": 1.0,
+        "STR": 0.0,
+        "BOT": 0.0,
+        "PER": 0.0
+      }
+    },
+    {
+      "round": 18,
+      "event": "United States Grand Prix",
+      "probs": {
+        "ANT": 0.99995,
+        "RUS": 0.0,
+        "HAM": 0.0,
         "VER": 5e-05,
         "LEC": 0.0,
         "NOR": 0.0,
