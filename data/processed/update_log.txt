@@ -1,0 +1,1 @@
+2026-11-01 00:01:29Z  ERROR fastf1.exceptions.DataNotLoadedError: The data you are trying to access has not been loaded yet. See `Session.load`
