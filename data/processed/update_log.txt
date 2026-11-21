@@ -8,3 +8,4 @@
 2026-11-08 15:48:58Z  ERROR fastf1.exceptions.DataNotLoadedError: The data you are trying to access has not been loaded yet. See `Session.load`
 2026-11-21 11:34:49Z  ERROR fastf1.exceptions.DataNotLoadedError: The data you are trying to access has not been loaded yet. See `Session.load`
 2026-11-21 18:43:43Z  ERROR fastf1.exceptions.DataNotLoadedError: The data you are trying to access has not been loaded yet. See `Session.load`
+2026-11-21 23:42:38Z  ERROR fastf1.exceptions.DataNotLoadedError: The data you are trying to access has not been loaded yet. See `Session.load`
